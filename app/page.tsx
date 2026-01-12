@@ -442,8 +442,8 @@ export default function Home() {
           </h1>
 
           <p className="text-base sm:text-lg md:text-xl lg:text-2xl text-gray-400 mb-12 max-w-3xl mx-auto section-fade-in animate-delay-3 leading-relaxed px-4">
-            CS senior at Brooklyn College focused on shipping production
-            systems, from multimodal AI search to full-stack SaaS applications.
+            CS senior building production-grade full-stack and AI-powered
+            systems.
           </p>
 
           <div className="flex flex-col sm:flex-row items-center justify-center space-y-4 sm:space-y-0 sm:space-x-6 section-fade-in animate-delay-4 px-4">

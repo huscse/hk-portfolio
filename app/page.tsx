@@ -572,10 +572,10 @@ export default function Home() {
               </h3>
               <div className="space-y-8">
                 <div className="glass-effect p-6 rounded-xl border-l-4 border-blue-500">
-                  <h4 className="font-bold text-xl mb-2">AI Team Lead</h4>
-                  <p className="text-blue-400 mb-3 font-medium">
-                    Break Through Tech AI Studio
-                  </p>
+                  <h4 className="font-bold text-xl mb-2">
+                    Applied AI Engineer
+                  </h4>
+                  <p className="text-blue-400 mb-3 font-medium">Latitude AI</p>
                   <ul className="space-y-2 text-gray-300">
                     <li className="flex items-start">
                       <span className="text-blue-400 mr-2">▹</span>
@@ -596,25 +596,26 @@ export default function Home() {
                 </div>
 
                 <div className="glass-effect p-6 rounded-xl">
-                  <h4 className="font-bold text-xl mb-2">
-                    Computer Science Student
-                  </h4>
+                  <h4 className="font-bold text-xl mb-2">Software Engineer</h4>
                   <p className="text-blue-400 mb-3 font-medium">
-                    Brooklyn College (CUNY)
+                    TellCo Europe (Clean Energy Investment Platform)
                   </p>
                   <ul className="space-y-2 text-gray-300">
                     <li className="flex items-start">
                       <span className="text-blue-400 mr-2">▹</span>
-                      Expected Graduation: Spring 2026
+                      Built a production-grade investor dashboard for clean
+                      energy projects in Indonesia
                     </li>
                     <li className="flex items-start">
                       <span className="text-blue-400 mr-2">▹</span>
-                      Focus: Full-Stack Development & Applied AI Systems
+                      Developed responsive, data-driven UI using Next.js,
+                      Tailwind CSS, and modern component patterns
                     </li>
                     <li className="flex items-start">
                       <span className="text-blue-400 mr-2">▹</span>
-                      Active contributor to engineering communities and open
-                      source
+                      Collaborated closely with stakeholders to translate
+                      financial and sustainability requirements into clear
+                      visualizations
                     </li>
                   </ul>
                 </div>

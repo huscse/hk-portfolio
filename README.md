@@ -15,12 +15,14 @@ A modern, production-ready portfolio showcasing full-stack engineering and AI ex
 ### Option 1: Deploy to Vercel (Recommended)
 
 1. Create a new Next.js project:
+
 ```bash
 npx create-next-app@latest portfolio --typescript --tailwind --app --no-src-dir
 cd portfolio
 ```
 
 2. Install dependencies:
+
 ```bash
 npm install framer-motion lucide-react
 ```
@@ -28,6 +30,7 @@ npm install framer-motion lucide-react
 3. Replace `app/page.tsx` with the provided React component (convert to TypeScript if needed)
 
 4. Update `tailwind.config.js` to extend the theme:
+
 ```js
 module.exports = {
   content: [
@@ -44,10 +47,11 @@ module.exports = {
     },
   },
   plugins: [],
-}
+};
 ```
 
 5. Deploy to Vercel:
+
 ```bash
 vercel
 ```
@@ -67,6 +71,7 @@ Open [http://localhost:3000](http://localhost:3000)
 Edit these sections in the component:
 
 #### Contact Information
+
 ```jsx
 // Line ~300 - Update email
 href="mailto:your-email@example.com"
@@ -77,36 +82,39 @@ href="mailto:your-email@example.com"
 ```
 
 #### Projects
+
 Update the `projects` array (around line 35):
+
 ```jsx
 const projects = [
   {
-    name: "Your Project",
-    tagline: "One-line description",
-    description: "Detailed description...",
-    impact: [
-      "Achievement 1",
-      "Achievement 2"
-    ],
-    tech: ["Tech1", "Tech2"],
-    github: "https://github.com/...",
-    live: "https://...", // or null
-    icon: Brain // Import from lucide-react
-  }
-]
+    name: 'Your Project',
+    tagline: 'One-line description',
+    description: 'Detailed description...',
+    impact: ['Achievement 1', 'Achievement 2'],
+    tech: ['Tech1', 'Tech2'],
+    github: 'https://github.com/...',
+    live: 'https://...', // or null
+    icon: Brain, // Import from lucide-react
+  },
+];
 ```
 
 #### Skills
+
 Update the `skills` object (around line 90):
+
 ```jsx
 const skills = {
-  "Category": ["Skill1", "Skill2"],
+  Category: ['Skill1', 'Skill2'],
   // Add or modify categories
-}
+};
 ```
 
 #### About Section
+
 Edit the about text (around line 330):
+
 ```jsx
 <p>Your custom bio...</p>
 ```
@@ -122,12 +130,14 @@ The site uses a blue-purple gradient theme. To change colors:
 ### Add Resume PDF
 
 Place your resume PDF in the `public` folder:
+
 ```
 public/
   resume.pdf
 ```
 
 The download link will automatically work:
+
 ```jsx
 <a href="/resume.pdf" download>
 ```
@@ -165,6 +175,7 @@ The download link will automatically work:
 ## 🎨 Design Philosophy
 
 This portfolio avoids generic "student portfolio" aesthetics by:
+
 - Using distinctive typography (Syne instead of Inter/Roboto)
 - Implementing subtle, professional animations
 - Focusing on engineering achievements over buzzwords
@@ -174,30 +185,28 @@ This portfolio avoids generic "student portfolio" aesthetics by:
 ## 🔧 Troubleshooting
 
 ### Fonts not loading
+
 Ensure Google Fonts link is in the `<style>` tag:
+
 ```jsx
 @import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&...');
 ```
 
 ### Smooth scroll not working
+
 Check that section IDs match navigation links:
+
 ```jsx
 <section id="home"> // Must match scrollToSection('home')
 ```
 
 ### Animations not appearing
+
 Ensure the fade-in classes are applied and the CSS animations are defined in the `<style>` tag.
 
 ## 📄 License
 
 This portfolio template is free to use for personal purposes. Please customize it to reflect your own work and personality.
-
-## 🤝 Contact
-
-For questions about this portfolio:
-- Email: husnain@example.com
-- GitHub: github.com/husnain
-- LinkedIn: linkedin.com/in/husnain
 
 ---
 

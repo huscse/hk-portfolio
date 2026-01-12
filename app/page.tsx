@@ -643,16 +643,6 @@ export default function Home() {
             Applied AI role, let's talk!
           </p>
 
-          <div className="flex flex-col sm:flex-row items-center justify-center space-y-4 sm:space-y-0 sm:space-x-6 mb-12">
-            <a
-              href="mailto:husnain@example.com"
-              className="btn-primary px-8 py-4 rounded-full font-semibold text-lg flex items-center"
-            >
-              <Mail className="w-5 h-5 mr-2" />
-              Email Me
-            </a>
-          </div>
-
           <div className="flex justify-center space-x-6">
             <a
               href="https://github.com/huscse"

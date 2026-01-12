@@ -68,7 +68,7 @@ export default function Home() {
         'PostgreSQL',
       ],
       github: 'https://github.com/huscse/vlm-dataset-navigator',
-      live: null,
+      live: 'https://vlm-dataset-navigator-frontend.vercel.app/',
       icon: Brain,
     },
     {
@@ -551,6 +551,7 @@ export default function Home() {
                     )}
                     {project.live && (
                       <a
+                        href={project.live}
                         className="p-3 glass-effect rounded-lg hover:bg-white/5 transition-colors"
                         target="_blank"
                         rel="noopener noreferrer"

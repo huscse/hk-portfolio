@@ -77,8 +77,7 @@ export default function Home() {
         'Integrated Stripe for subscription management and Firebase for real-time sync',
       ],
       tech: ['Next.js', 'OpenAI API', 'Stripe', 'Firebase', 'TypeScript'],
-      github: 'https://github.com',
-      live: 'https://demo.com',
+      github: 'https://github.com/huscse/FlashCards-Saas',
       icon: Sparkles,
     },
     {
@@ -91,7 +90,7 @@ export default function Home() {
         'Built responsive UI with strong emphasis on UX and accessibility',
       ],
       tech: ['React', 'Node.js', 'MongoDB', 'TensorFlow.js', 'Tailwind'],
-      github: 'https://github.com',
+      github: 'https://github.com/huscse/Fitnology',
       live: null,
       icon: Terminal,
     },
@@ -150,12 +149,12 @@ export default function Home() {
         .gradient-bg {
           background: radial-gradient(
               ellipse at top,
-              rgba(59, 130, 246, 0.15) 0%,
+              rgba(15, 52, 96, 0.2) 0%,
               transparent 50%
             ),
             radial-gradient(
               ellipse at bottom,
-              rgba(6, 182, 212, 0.1) 0%,
+              rgba(22, 165, 184, 0.12) 0%,
               transparent 50%
             );
         }
@@ -167,7 +166,7 @@ export default function Home() {
         }
 
         .glow-text {
-          text-shadow: 0 0 40px rgba(59, 130, 246, 0.3);
+          text-shadow: 0 0 40px rgba(22, 165, 184, 0.4);
         }
 
         .nav-link {
@@ -182,7 +181,7 @@ export default function Home() {
           left: 0;
           width: 0;
           height: 2px;
-          background: linear-gradient(90deg, #3b82f6, #0ea5e9);
+          background: linear-gradient(90deg, #16a5b8, #0f8fa3);
           transition: width 0.3s ease;
         }
 
@@ -198,31 +197,31 @@ export default function Home() {
 
         .project-card:hover {
           transform: translateY(-8px);
-          border-color: rgba(59, 130, 246, 0.3);
-          box-shadow: 0 20px 60px rgba(59, 130, 246, 0.15);
+          border-color: rgba(22, 165, 184, 0.35);
+          box-shadow: 0 20px 60px rgba(22, 165, 184, 0.2);
         }
 
         .tech-tag {
-          background: rgba(59, 130, 246, 0.1);
-          border: 1px solid rgba(59, 130, 246, 0.2);
+          background: rgba(22, 165, 184, 0.1);
+          border: 1px solid rgba(22, 165, 184, 0.25);
           transition: all 0.3s ease;
         }
 
         .tech-tag:hover {
-          background: rgba(59, 130, 246, 0.2);
-          border-color: rgba(59, 130, 246, 0.4);
+          background: rgba(22, 165, 184, 0.2);
+          border-color: rgba(22, 165, 184, 0.5);
           transform: translateY(-2px);
         }
 
         .btn-primary {
-          background: linear-gradient(135deg, #3b82f6, #0ea5e9);
+          background: linear-gradient(135deg, #0f3460, #16a5b8);
           transition: all 0.3s ease;
-          box-shadow: 0 4px 20px rgba(59, 130, 246, 0.3);
+          box-shadow: 0 4px 20px rgba(22, 165, 184, 0.35);
         }
 
         .btn-primary:hover {
           transform: translateY(-2px);
-          box-shadow: 0 8px 30px rgba(59, 130, 246, 0.4);
+          box-shadow: 0 8px 30px rgba(22, 165, 184, 0.45);
         }
 
         .btn-secondary {
@@ -231,8 +230,8 @@ export default function Home() {
         }
 
         .btn-secondary:hover {
-          border-color: rgba(59, 130, 246, 0.5);
-          background: rgba(59, 130, 246, 0.05);
+          border-color: rgba(22, 165, 184, 0.5);
+          background: rgba(22, 165, 184, 0.05);
         }
 
         .section-fade-in {
@@ -301,7 +300,7 @@ export default function Home() {
         }
 
         ::selection {
-          background: rgba(59, 130, 246, 0.3);
+          background: rgba(22, 165, 184, 0.3);
           color: white;
         }
       `}</style>
@@ -311,7 +310,7 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-6 py-4">
           <div className="flex justify-between items-center">
             <div className="font-display font-bold text-xl">
-              <span className="text-blue-400">HK</span>
+              <span className="text-[#16a5b8]">HK</span>
             </div>
 
             <div className="hidden md:flex space-x-8">
@@ -322,7 +321,7 @@ export default function Home() {
                     onClick={() => scrollToSection(section)}
                     className={`nav-link capitalize text-sm font-medium ${
                       activeSection === section
-                        ? 'active text-blue-400'
+                        ? 'active text-[#16a5b8]'
                         : 'text-gray-400'
                     }`}
                   >
@@ -333,7 +332,7 @@ export default function Home() {
             </div>
 
             <a
-              href="mailto:husnain@example.com"
+              href="mailto:husnaink3011@gmail.com"
               className="btn-secondary px-5 py-2 rounded-full text-sm font-medium"
             >
               Say Hi
@@ -350,7 +349,7 @@ export default function Home() {
         <div className="max-w-6xl mx-auto px-6 text-center">
           <div className="section-fade-in animate-delay-1">
             <div className="inline-block mb-4">
-              <div className="flex items-center space-x-2 text-sm font-mono text-blue-400 glass-effect px-4 py-2 rounded-full">
+              <div className="flex items-center space-x-2 text-sm font-mono text-[#16a5b8] glass-effect px-4 py-2 rounded-full">
                 <div className="w-2 h-2 bg-green-400 rounded-full animate-pulse"></div>
                 <span>Available for full-time roles • Spring 2026</span>
               </div>
@@ -359,11 +358,11 @@ export default function Home() {
 
           <h1 className="font-display font-bold text-6xl md:text-8xl mb-6 section-fade-in animate-delay-2">
             I build{' '}
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 via-blue-500 to-cyan-400 glow-text">
-              full-stack
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#16a5b8] via-[#0f8fa3] to-[#5fc3d4] glow-text">
+              Full-Stack
             </span>
             <br />&{' '}
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-blue-500 to-blue-400 glow-text">
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#5fc3d4] via-[#0f8fa3] to-[#16a5b8] glow-text">
               AI-powered
             </span>{' '}
             products.
@@ -393,7 +392,7 @@ export default function Home() {
       <section id="about" className="py-32 px-6">
         <div className="max-w-4xl mx-auto">
           <div className="mb-12">
-            <span className="font-mono text-sm text-blue-400 mb-2 block">
+            <span className="font-mono text-sm text-[#16a5b8] mb-2 block">
               01 / ABOUT
             </span>
             <h2 className="font-display font-bold text-5xl md:text-6xl mb-8">
@@ -422,8 +421,7 @@ export default function Home() {
               natural, not gimmicky? These are the questions that drive my work.
             </p>
 
-            <p className="bg-gradient-to-r from-blue-300 via-blue-500 to-cyan-400 bg-clip-text text-transparent font-semibold">
-              {' '}
+            <p className="bg-gradient-to-r from-[#16a5b8] via-[#0f8fa3] to-[#5fc3d4] bg-clip-text text-transparent font-semibold">
               Currently seeking full-time Software Engineer / Full-Stack /
               Applied AI roles starting Spring 2026.
             </p>
@@ -434,11 +432,11 @@ export default function Home() {
       {/* Projects Section */}
       <section
         id="projects"
-        className="py-32 px-6 bg-gradient-to-b from-transparent via-blue-950/5 to-transparent"
+        className="py-32 px-6 bg-gradient-to-b from-transparent via-[#0f3460]/5 to-transparent"
       >
         <div className="max-w-7xl mx-auto">
           <div className="mb-20">
-            <span className="font-mono text-sm text-blue-400 mb-2 block">
+            <span className="font-mono text-sm text-[#16a5b8] mb-2 block">
               02 / PROJECTS
             </span>
             <h2 className="font-display font-bold text-5xl md:text-6xl">
@@ -454,14 +452,14 @@ export default function Home() {
               >
                 <div className="flex flex-col md:flex-row md:items-start md:justify-between mb-6">
                   <div className="flex items-start space-x-4 mb-4 md:mb-0">
-                    <div className="p-3 rounded-xl bg-blue-500/10 text-blue-400 floating">
+                    <div className="p-3 rounded-xl bg-[#16a5b8]/10 text-[#16a5b8] floating">
                       <project.icon className="w-8 h-8" />
                     </div>
                     <div>
                       <h3 className="font-display font-bold text-3xl mb-2">
                         {project.name}
                       </h3>
-                      <p className="text-blue-400 font-medium text-lg">
+                      <p className="text-[#16a5b8] font-medium text-lg">
                         {project.tagline}
                       </p>
                     </div>
@@ -480,7 +478,6 @@ export default function Home() {
                     )}
                     {project.live && (
                       <a
-                        href={project.live}
                         className="p-3 glass-effect rounded-lg hover:bg-white/5 transition-colors"
                         target="_blank"
                         rel="noopener noreferrer"
@@ -502,7 +499,7 @@ export default function Home() {
                   <ul className="space-y-2">
                     {project.impact.map((item, i) => (
                       <li key={i} className="flex items-start">
-                        <span className="text-blue-400 mr-3 mt-1">▹</span>
+                        <span className="text-[#16a5b8] mr-3 mt-1">▹</span>
                         <span className="text-gray-300">{item}</span>
                       </li>
                     ))}
@@ -529,7 +526,7 @@ export default function Home() {
       <section id="experience" className="py-32 px-6">
         <div className="max-w-7xl mx-auto">
           <div className="mb-20">
-            <span className="font-mono text-sm text-blue-400 mb-2 block">
+            <span className="font-mono text-sm text-[#16a5b8] mb-2 block">
               03 / EXPERIENCE
             </span>
             <h2 className="font-display font-bold text-5xl md:text-6xl">
@@ -540,14 +537,14 @@ export default function Home() {
           <div className="grid md:grid-cols-2 gap-12">
             {/* Skills */}
             <div>
-              <h3 className="font-display font-bold text-2xl mb-8 text-blue-400">
+              <h3 className="font-display font-bold text-2xl mb-8 text-[#16a5b8]">
                 Technical Skills
               </h3>
               <div className="space-y-6">
                 {Object.entries(skills).map(([category, items], index) => (
                   <div key={index} className="skill-category">
                     <div className="flex items-center mb-3">
-                      <Code2 className="w-5 h-5 text-blue-400 mr-2" />
+                      <Code2 className="w-5 h-5 text-[#16a5b8] mr-2" />
                       <h4 className="font-semibold text-lg">{category}</h4>
                     </div>
                     <div className="flex flex-wrap gap-2 ml-7">
@@ -567,55 +564,111 @@ export default function Home() {
 
             {/* Experience */}
             <div>
-              <h3 className="font-display font-bold text-2xl mb-8 text-blue-400">
+              <h3 className="font-display font-bold text-2xl mb-8 text-[#16a5b8]">
                 Experience
               </h3>
+
               <div className="space-y-8">
-                <div className="glass-effect p-6 rounded-xl border-l-4 border-blue-500">
-                  <h4 className="font-bold text-xl mb-2">
-                    Applied AI Engineer
+                {/* Break Through Tech */}
+                <div className="glass-effect p-6 rounded-xl">
+                  <h4 className="font-bold text-xl mb-1">
+                    AI / Machine Learning Fellow
                   </h4>
-                  <p className="text-blue-400 mb-3 font-medium">Latitude AI</p>
+
+                  <div className="flex justify-between items-center mb-3">
+                    <p className="text-[#16a5b8] font-medium">
+                      Break Through Tech AI (Cornell Tech)
+                    </p>
+                    <span className="text-sm text-gray-400">
+                      Aug 2025 – Present
+                    </span>
+                  </div>
+
                   <ul className="space-y-2 text-gray-300">
                     <li className="flex items-start">
-                      <span className="text-blue-400 mr-2">▹</span>
-                      Led 7-person cross-functional team building Navis AI
-                      platform
+                      <span className="text-[#16a5b8] mr-2">▹</span>
+                      Selected for a competitive AI fellowship with rigorous ML
+                      coursework and applied industry projects
                     </li>
                     <li className="flex items-start">
-                      <span className="text-blue-400 mr-2">▹</span>
-                      Coordinated sprints, code reviews, and technical
-                      architecture decisions
+                      <span className="text-[#16a5b8] mr-2">▹</span>
+                      Completed an intensive ML course covering supervised
+                      learning, evaluation, and real-world tradeoffs
                     </li>
                     <li className="flex items-start">
-                      <span className="text-blue-400 mr-2">▹</span>
-                      Implemented multimodal embeddings and vector search
-                      infrastructure
+                      <span className="text-[#16a5b8] mr-2">▹</span>
+                      Collaborated in a 7-person cross-functional team
+                      integrating multimodal embeddings and vector search
                     </li>
                   </ul>
                 </div>
 
-                <div className="glass-effect p-6 rounded-xl">
-                  <h4 className="font-bold text-xl mb-2">Software Engineer</h4>
-                  <p className="text-blue-400 mb-3 font-medium">
-                    TellCo Europe (Clean Energy Investment Platform)
-                  </p>
+                {/* Latitude AI */}
+                <div className="glass-effect p-6 rounded-xl border-l-4 border-[#16a5b8]">
+                  <h4 className="font-bold text-xl mb-1">
+                    Applied AI Engineer
+                  </h4>
+
+                  <div className="flex justify-between items-center mb-3">
+                    <p className="text-[#16a5b8] font-medium">Latitude AI</p>
+                    <span className="text-sm text-gray-400">
+                      Aug 2025 – Dec 2025
+                    </span>
+                  </div>
+
                   <ul className="space-y-2 text-gray-300">
                     <li className="flex items-start">
-                      <span className="text-blue-400 mr-2">▹</span>
+                      <span className="text-[#16a5b8] mr-2">▹</span>
+                      Led a 7-person cross-functional team to design and build
+                      Navis, an AI-powered dataset navigation platform enabling
+                      semantic search over large-scale autonomous driving
+                      datasets
+                    </li>
+
+                    <li className="flex items-start">
+                      <span className="text-[#16a5b8] mr-2">▹</span>
+                      Owned sprint planning, technical architecture decisions,
+                      and code reviews while coordinating frontend, backend, and
+                      machine learning workstreams
+                    </li>
+
+                    <li className="flex items-start">
+                      <span className="text-[#16a5b8] mr-2">▹</span>
+                      Implemented multimodal embedding pipelines and vector
+                      search infrastructure to support efficient similarity
+                      search across images, captions, and metadata
+                    </li>
+                  </ul>
+                </div>
+
+                {/* TellCo Europe */}
+                <div className="glass-effect p-6 rounded-xl">
+                  <h4 className="font-bold text-xl mb-1">Software Engineer</h4>
+
+                  <div className="flex justify-between items-center mb-3">
+                    <p className="text-[#16a5b8] font-medium">
+                      TellCo Europe (Clean Energy Investment Platform)
+                    </p>
+                    <span className="text-sm text-gray-400">
+                      Jan 2025 – June 2025
+                    </span>
+                  </div>
+
+                  <ul className="space-y-2 text-gray-300">
+                    <li className="flex items-start">
+                      <span className="text-[#16a5b8] mr-2">▹</span>
                       Built a production-grade investor dashboard for clean
                       energy projects in Indonesia
                     </li>
                     <li className="flex items-start">
-                      <span className="text-blue-400 mr-2">▹</span>
-                      Developed responsive, data-driven UI using Next.js,
-                      Tailwind CSS, and modern component patterns
+                      <span className="text-[#16a5b8] mr-2">▹</span>
+                      Developed responsive, data-driven UI using Next.js and
+                      Tailwind CSS
                     </li>
                     <li className="flex items-start">
-                      <span className="text-blue-400 mr-2">▹</span>
-                      Collaborated closely with stakeholders to translate
-                      financial and sustainability requirements into clear
-                      visualizations
+                      <span className="text-[#16a5b8] mr-2">▹</span>
+                      Collaborated with stakeholders to translate financial and
+                      sustainability requirements into clear visualizations
                     </li>
                   </ul>
                 </div>
@@ -628,10 +681,10 @@ export default function Home() {
       {/* Contact Section */}
       <section
         id="contact"
-        className="py-32 px-6 bg-gradient-to-b from-transparent via-cyan-950/5 to-transparent"
+        className="py-32 px-6 bg-gradient-to-b from-transparent via-[#16a5b8]/5 to-transparent"
       >
         <div className="max-w-4xl mx-auto text-center">
-          <span className="font-mono text-sm text-blue-400 mb-4 block">
+          <span className="font-mono text-sm text-[#16a5b8] mb-4 block">
             04 / CONTACT
           </span>
           <h2 className="font-display font-bold text-5xl md:text-6xl mb-8">

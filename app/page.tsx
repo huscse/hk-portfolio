@@ -52,7 +52,7 @@ export default function Home() {
   const projects = [
     {
       name: 'Navis',
-      tagline: 'AI Dataset Navigator',
+      tagline: 'Semantic search platform for autonomous driving datasets',
       description:
         'Multimodal search platform for large-scale autonomous driving datasets using vision-language models and vector embeddings.',
       impact: [
@@ -104,17 +104,20 @@ export default function Home() {
     Frontend: [
       'Next.js',
       'React',
+      'JavaScript',
       'TypeScript',
       'Tailwind CSS',
       'Framer Motion',
     ],
-    Backend: ['FastAPI', 'Node.js', 'Express', 'REST APIs'],
+    Backend: ['FastAPI', 'Node.js', 'Express', 'REST APIs', 'Flask'],
     'AI/ML': [
       'OpenAI API',
-      'CLIP/BLIP',
+      'Prompt Engineering',
       'Vector Embeddings',
+      'Semantic Search',
+      'Similarity Search',
       'FAISS',
-      'Qwen2-VL',
+      'RAG (Retrieval-Augmented Generation)',
     ],
     Databases: [
       'PostgreSQL',
@@ -331,8 +334,8 @@ export default function Home() {
       `}</style>
 
       {/* Navigation */}
-      <nav className="fixed top-0 w-full z-50 glass-effect">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 py-4">
+      <nav className="fixed top-5 w-full z-50 glass-effect">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 py-2">
           <div className="flex justify-between items-center">
             <div className="font-display font-bold text-xl">
               <span className="text-[#16a5b8]">HK</span>
@@ -429,7 +432,7 @@ export default function Home() {
             </div>
           </div>
 
-          <h1 className="font-display font-bold text-4xl sm:text-5xl md:text-6xl lg:text-8xl mb-6 section-fade-in animate-delay-2 px-4">
+          <h1 className="font-display font-bold text-4xl sm:text-5xl md:text-7xl lg:text-7xl mb-6 section-fade-in animate-delay-2 px-4">
             I build{' '}
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#16a5b8] via-[#0f8fa3] to-[#5fc3d4] glow-text">
               Full-Stack
@@ -494,7 +497,7 @@ export default function Home() {
               natural, not gimmicky? These are the questions that drive my work.
             </p>
 
-            <p className="bg-gradient-to-r from-[#16a5b8] via-[#0f8fa3] to-[#5fc3d4] bg-clip-text text-transparent font-semibold">
+            <p className="text-sm md:text-base font-medium tracking-wide text-[#7fd6e2]">
               Currently seeking full-time Software Engineer / Full-Stack /
               Applied AI roles starting Spring 2026.
             </p>
@@ -505,7 +508,7 @@ export default function Home() {
       {/* Projects Section */}
       <section
         id="projects"
-        className="py-16 sm:py-24 md:py-22 px-4 sm:px-6 bg-gradient-to-b from-transparent via-[#0f3460]/5 to-transparent"
+        className="py-16 sm:py-24 md:py-1 px-4 sm:px-6 bg-gradient-to-b from-transparent via-[#0f3460]/5 to-transparent"
       >
         <div className="max-w-7xl mx-auto">
           <div className="mb-12 sm:mb-20">
